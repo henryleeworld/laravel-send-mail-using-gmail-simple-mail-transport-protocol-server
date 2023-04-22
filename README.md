@@ -1,4 +1,4 @@
-# Laravel 8 使用 Gmail 簡易郵件傳輸協定（SMTP）伺服器發送電子郵件
+# Laravel 10 使用 Gmail 簡易郵件傳輸協定（SMTP）伺服器發送電子郵件
 
 簡易郵件傳輸協定（SMTP）屬於即時送信與收信的通訊協定，傳送端與接收端的主機必須開機並連線，傳送端送出信件後，接收端立即收到信件。
 
@@ -18,9 +18,10 @@ $ php artisan key:generate
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/send-mail` 來進行 Gmail 電子郵件發送。
+> Google 帳戶請啟用兩步驟驗證功能，並設定應用程式密碼，產生一組 16 位數密碼，可讓低安全性應用程式或裝置存取您的 Google 帳戶來發送電子郵件
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/qbE2eUm.png)
+![](https://i.imgur.com/RicoLdw.png)
 > 使用 Gmail 發送電子郵件

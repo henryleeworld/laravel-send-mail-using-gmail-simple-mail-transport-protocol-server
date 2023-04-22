@@ -10,16 +10,15 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
 |
 */
-
 Route::get('send-mail', function () {
     $details = [
-        'title' => '測試信標題',
-        'body'  => '這是測試信'
+        'title' => __('Test letter title'),
+        'body'  => __('This is the test letter'),
     ];
     Mail::to('henryleeworld@gmail.com')->send(new MyTestMail($details));
-    dd("電子郵件已經發送。");
+    dd(__('Email has been sent.'));
 });

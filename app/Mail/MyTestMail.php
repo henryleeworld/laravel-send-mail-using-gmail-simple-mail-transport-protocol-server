@@ -30,6 +30,6 @@ class MyTestMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('來自Gmail的電子郵件')->view('emails.myTestMail');
+        return $this->subject(__('Email from Gmail'))->view('emails.myTestMail');
     }
 }

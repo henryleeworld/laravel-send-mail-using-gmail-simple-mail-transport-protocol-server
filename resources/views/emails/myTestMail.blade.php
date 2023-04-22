@@ -23,6 +23,6 @@
     <body class="antialiased">
         <h1>{{ $details['title'] }}</h1>
         <p>{{ $details['body'] }}</p>
-        <p>謝謝您</p>
+        <p>{{ __('Thank you') }}</p>
     </body>
 </html>
