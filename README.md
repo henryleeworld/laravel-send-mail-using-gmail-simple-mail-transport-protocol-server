@@ -1,4 +1,4 @@
-# Laravel 12 使用 Gmail 簡易郵件傳輸協定（SMTP）伺服器發送電子郵件
+# Laravel 13 使用 Gmail 簡易郵件傳輸協定（SMTP）伺服器發送電子郵件
 
 簡易郵件傳輸協定（SMTP）屬於即時送信與收信的通訊協定，傳送端與接收端的主機必須開機並連線，傳送端送出信件後，接收端立即收到信件。
 
@@ -27,5 +27,5 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/rVliEti.png)
+![](https://i.imgur.com/8qdx4Vm.png)
 > 使用 Gmail 發送電子郵件
